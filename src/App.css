@@ -19,7 +19,7 @@ body{
   margin:15px auto;
   height: 500px;
   background-color:#F5F5F5 ;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 0px 0px;
 }
 
 /***************Image Container***********/
@@ -93,8 +93,19 @@ body{
 
 .about>h2{
   color: #2B283A;
-
   margin-bottom: 0;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  gap:3rem;
+  border:1px transparent;
+  background-color: #D5D4D8;
+  padding:2rem 2rem;
+  border-radius: 0px 0px 10px 10px;
+  margin-top: 3rem;
 
 }
 
