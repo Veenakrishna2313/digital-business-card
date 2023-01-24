@@ -18,13 +18,16 @@ body{
   min-height:95vh;
   margin:15px auto;
   height: 500px;
-  display: flex;
-  justify-content: center;
   background-color:#F5F5F5 ;
   border-radius: 10px 10px 10px 10px;
 }
 
 /***************Image Container***********/
+
+.image-container{
+  height:69%;
+  margin-bottom: 0;
+}
 
 .image{
   background-image: url(./photo.jpeg);
@@ -50,5 +53,49 @@ body{
   text-align: center;
   color:#F47D27;
   margin-top:5px;
+  margin-bottom: 0;
 }
+
+.image-container>h3 {
+  font-weight: 400;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.email-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.email{
+  width:80%;
+  border-radius: 7px;
+  border:1px solid rgb(209, 207, 207);
+  padding:1rem 1rem;
+
+}
+
+.email>i{
+  padding-right: 1rem;
+}
+
+.about{
+ margin-left:3.25rem;
+ margin-right:3.25rem;
+ text-align: justify;
+ color: #4A4E74;
+ margin-bottom:0;
+ margin-top: 1rem;
+ line-height: 150%;
+}
+
+.about>h2{
+  color: #2B283A;
+
+  margin-bottom: 0;
+
+}
+
 
